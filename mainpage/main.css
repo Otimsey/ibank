@@ -1,0 +1,37 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.bet {
+  display: flex;
+  background-color: #3629b7;
+  height: 20vh;
+
+  align-items: start;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+}
+.betcomp {
+  display: flex;
+  color: #fff;
+  gap: 1rem;
+  align-items: center;
+}
+section {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 105px;
+  border-radius: 2rem 2rem 0 0;
+}
+.john-smith {
+  width: 100%;
+}
+.file {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.file > img {
+  width: 80%;
+}
